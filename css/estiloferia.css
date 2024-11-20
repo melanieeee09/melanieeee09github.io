@@ -1,0 +1,167 @@
+.emvoltorio{
+    background-color: #fff;
+    width: 1920px;
+}
+header{
+    background-image:url(../imagenes/logo\ festival.png);
+    background-position: center;
+    background-repeat: no-repeat ;
+    width: 1920px;
+    height: 249px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+}
+nav a{
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.5s;
+}
+nav a:hover{
+    background-color: #3A763F;
+    color: #fff;}
+.slider{
+    width: 95%;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    
+}
+.slider ul{
+    padding: 0;
+    display: flex;
+    width: 200%;
+
+    animation: cambio 15s infinite
+    
+}
+.slider li{
+    list-style-type: none;
+    width: 100%;
+    
+}
+.slider img{
+    width: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}  
+}
+.masato{
+    background-image: url(../imagenes/masato.png);
+    background-position: center;
+    background-repeat: no-repeat ;
+    width: 1920px;
+    height: 2216px;
+}
+p1{
+    font-size: 72px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: justify;
+}
+.masato p1{
+   display: block;
+    color: #fff;
+    padding: 1060px 82px 0px 1028px;
+    
+}
+p2{
+    font-size: 72px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: justify;
+}
+.masato p2{
+    display: block;
+    color: #fff;
+    padding: 30px 82px 0px 1028px;
+}
+p3{
+    font-size: 92px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: justify;
+}
+.masato p3{
+    color: #fff;
+    padding: 300px 82px 0px 162px;
+    display: flex;
+}
+p4{
+    font-size: 38px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: medium;
+    text-align: justify;
+}
+.masato p4{
+    color: #fff;
+    padding: 50px 830px 0px 162px;
+    display: flex;
+    position: absolute;
+}
+.masato img{
+    padding:22px 0px 0px 1200px;
+    display: block;
+}
+.contenido{
+    background-image: url(../imagenes/empaque\ fondo.png);
+    width: 1920px;
+    height: 1824px;
+    background-position: center;
+    background-repeat: no-repeat ;
+}
+p5{
+    font-size: 72px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    text-align: justify;
+}
+.contenido p5{
+    color: #B41412;
+    padding: 1540px 930px 0px 162px;
+    display: flex;
+    position: absolute;
+
+}
+
+    
+
+
+footer{
+    padding: 117px 77px 113px 77px;
+    background-image: url(../imagenes/footer.png);
+    background-position:center ;
+    background-repeat: no-repeat ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+
+}
+.aladerecha{
+    text-align: right;
+}

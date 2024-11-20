@@ -1,0 +1,162 @@
+
+.emvoltorio{
+    background-color: #fff;
+    width: 1920px;
+    
+}
+
+.container{
+    background-image: url(../imagenes/portada.png);
+    background-position:center ;
+    background-repeat: no-repeat ;
+    width: 1920px;
+    height: 2083px;
+}
+
+.container h1{
+    position: absolute;
+    padding: 160px 131px 1779px 162px;
+    color: #fff;
+}
+h1{
+    font-size: 77px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+h2{
+    font-size: 77px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+.container h2{
+    position: absolute;
+    padding: 250px 131px 1687px 162px;
+    color: #fff;
+}
+p1{
+    font-size: 42px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: medium;
+    text-align: justify;
+}
+.container p1{
+    position: absolute;
+    padding: 476px 714px 0px 166px;
+    color: #fff;
+    
+
+}
+.contenido {
+    background-image: url(../imagenes/menu.png);
+    background-position:center ;
+    background-repeat: no-repeat ;
+    width: 1920px;
+    height: 906px;
+}
+.boton-redireccion{
+    background-color: #B41412;
+    border: 0px;
+    padding: 37px ;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    cursor:pointer;
+    width: 420px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+.boton{
+    padding: 890px 0px 0px 340px;
+}
+
+
+
+.carrusel {
+    padding: 220px 1285px 892px 103px;
+}
+
+h3{
+    font-size: 77px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+}
+.contenido h3{
+    position: absolute;
+    padding: 180px 0px 0px 103px;
+    color: #fff;
+}
+p2{
+    font-size: 42px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: medium;
+}
+.contenido p2{
+    position: absolute;
+    padding: 400px 990px 0px 103px;
+    color: #fff;
+    text-align: justify;
+}
+.contenido img{
+    padding: 270px 77px 135px 1026px;
+}
+header{
+    background-image:url(../imagenes/logo\ festival.png);
+    background-position: center;
+    background-repeat: no-repeat ;
+    width: 1920px;
+    height: 249px;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    
+}
+nav a{
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    transition: all 0.5s;
+}
+nav a:hover{
+    background-color: #3A763F;
+    color: #fff;
+}
+
+
+
+footer{
+    padding: 117px 77px 113px 77px;
+    background-image: url(../imagenes/footer.png);
+    background-position:center ;
+    background-repeat: no-repeat ;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+
+}
+
+
+.aladerecha{
+    text-align: right;
+}
